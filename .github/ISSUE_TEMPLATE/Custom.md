@@ -1,12 +1,13 @@
 ---
-name: Backups verification template
-about: Checklist for Backups verification
+name: Monitoring and Alerts verification template
+about: 'Checklist to Monitoring and create Alerts '
 
 ---
 
-- [ ] Logs verify - check whether the backup logs have any errors.
-- [ ] Verify file - check the data is properly stored in S3 bucket or not
-- [ ] Restore and Validate - Consider one or two parquet file from every component
-- [ ] Collect Improvements - Identify the list of Improvements (add/remove).
-- [ ] Create Tickets - prepare tasks list from the collected improvements
-- [ ] Acknowledgement - Update the Document.
+- [ ] Update the list of all categories we are monitoring
+- [ ] Verify existing monitoring strategy and their threshold.
+- [ ] Add/remove existing monitors.
+- [ ] Trigger alerts and verify the alerts.
+- [ ] Update the Document with findings
+- [ ] List the improvements
+- [ ] Create tasks from improvements (if any).
