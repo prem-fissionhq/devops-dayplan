@@ -1,4 +1,4 @@
-- [ ] verify data
-- [ ] verify me
-- [ ] testing
-- [ ] revamp
+- [x] verify data
+- [x] verify me
+- [x] testing
+- [x] revamp
